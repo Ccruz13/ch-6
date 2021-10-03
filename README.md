@@ -12,6 +12,7 @@ JavaScript
 ![Screenshot](Screen-shot.png)
 
 ## Website
-https://ccruz13.github.io/ch-2/
+https://ccruz13.github.io/ch-6/
+
 ## Contribution
 Charlie Cruz
