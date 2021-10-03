@@ -9,35 +9,34 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>Weather Dashboard</title>
 </head>
-
-<body>
-    <header>Weather Dashboard</header>
-    <div class="container-fluid">
-        <div class="row">
-            <container class="col-sm-3">
-                <form>
-                    <input type="text" id="citySearch" class="city-search" placeholder="Search for a city...">
-                    <button type="submit" id="searchBtn" class="search-btn btn btn-secondary btn-block">Search</button>
-                </form>
-                <div id="cityBtns" class="city-btns"></div>
-            </container>
-            <container class="col-sm-9">
-                <h1>Current Weather</h1>
-                <div id="currentWeatherContainer" class="current-weather-container">
-                    <h2 id="cityName" class="city-name"></h2>
-                    <h4 id="date" class="date"></h4>
-                    <img id="icon" class="icon" />
-                    <h4 id="temp" class="temp"></h4>
-                    <h4 id="wind" class="wind"></h4>
-                    <h4 id="humidity" class="humidity"></h4>
-                    <div class="index-bar">
-                        <h4 id="uvIndex" class="uv-index"></h4>
+    <body>
+        <header>Weather Dashboard</header>
+        <div class="container-fluid">
+            <div class="row">
+                <container class="col-sm-3">
+                    <form>
+                        <input type="text" id="citySearch" class="city-search" placeholder="Search for a city...">
+                        <button type="submit" id="searchBtn" class="search-btn btn btn-secondary btn-block">Search</button>
+                    </form>
+                    <div id="cityBtns" class="city-btns"></div>
+                </container>
+                <container class="col-sm-9">
+                    <h1>Current Weather</h1>
+                    <div id="currentWeatherContainer" class="current-weather-container">
+                        <h2 id="cityName" class="city-name"></h2>
+                        <h4 id="date" class="date"></h4>
+                        <img id="icon" class="icon" />
+                        <h4 id="temp" class="temp"></h4>
+                        <h4 id="wind" class="wind"></h4>
+                        <h4 id="humidity" class="humidity"></h4>
+                        <div class="index-bar">
+                            <h4 id="uvIndex" class="uv-index"></h4>
+                        </div>
                     </div>
-                </div>
-                <div id="forecastContainer" class="forecast-container card-group"></div>
-            </container>
+                    <div id="forecastContainer" class="forecast-container card-group"></div>
+                </container>
+            </div>
         </div>
-    </div>
-    <script src="./assets/script.js"></script>
-</body>
+        <script src="./assets/script.js"></script>
+    </body>
 </html>

@@ -37,6 +37,7 @@ header {
 
 header, h1 {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .current-weather-container {
@@ -66,4 +67,4 @@ form {
 
 .index-bar {
     width: max-content;
-}}}
+}
